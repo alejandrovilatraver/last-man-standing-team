@@ -1,0 +1,22 @@
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\bin\Debug\ICFP.exe
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\bin\Debug\ICFP.pdb
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\MainWindow.baml
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\MainWindow.g.cs
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\App.g.cs
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\ICFP_MarkupCompile.cache
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\ICFP.g.resources
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\ICFP.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\ICFP.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\ICFP.exe
+c:\users\alex\documents\visual studio 2010\Projects\ICFP\ICFP\obj\x86\Debug\ICFP.pdb
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\ICFP.exe
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\ICFP.pdb
+C:\Users\Profesor\Desktop\ICFP\ICFP\bin\Debug\ICFP.exe
+C:\Users\Profesor\Desktop\ICFP\ICFP\bin\Debug\ICFP.pdb
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\MainWindow.baml
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\App.g.cs
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\ICFP_MarkupCompile.cache
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\ICFP.g.resources
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\ICFP.Properties.Resources.resources
+C:\Users\Profesor\Desktop\ICFP\ICFP\obj\x86\Debug\ICFP.csproj.GenerateResource.Cache

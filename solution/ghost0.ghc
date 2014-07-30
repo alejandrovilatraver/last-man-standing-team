@@ -1,0 +1,83 @@
+jeq 44,0,0      ; up ghost                         ;0
+
+jlt 33,[0],6   ;count<10 inc count and leave;1
+jeq 31,[0],30   ;count=30 restart counter    ;2
+
+;move against lambda_man
+
+int 1        ; get lambda_man coordinates    ;3
+mov [1],a    ; move lambda man x to 1        ;4
+mov [2],b    ; move lambda man y to 2        ;5
+
+int 3        ; get index of ghost            ;6
+int 5        ; get ghost coordinates         ;7
+mov [3],a    ; move ghost x to 3             ;8
+mov [4],b    ; move ghost y to 4             ;9
+
+;x_coordinates
+jgt 15,[1],[3] ;x_lm>x_gh lm_x-gh_x          ;10
+mov a,[3]    ; ghost_x-lambdaman_x           ;11
+sub a,[1]                                    ;12
+mov [5],3    ; store left in 5               ;13
+jeq 18,0,0   ; y coordinates                 ;14
+
+;lambdaman_x-ghost_x                         
+mov a,[1]                                    ;15
+sub a,[3]                                    ;16
+mov [5],1    ; store right in 5              ;17
+
+;y_coordinates
+jgt 23,[2],[4] ;y_lm>y_gh lm_y-gh_y          ;18
+mov b,[4]    ;ghost_y-lambdaman_y            ;19
+sub b,[1]                                    ;20
+mov [6],0    ; store down in 6               ;21
+jeq 26,0,0   ; decide direction              ;22
+
+;lambdaman_y-ghost_y
+mov b,[2]                                    ;23
+sub b,[4]                                    ;24
+mov [6],2    ;store up in 6                  ;25
+
+;decide_direction
+jgt 29,a,b   ; x direction                   ;26
+mov a,[6]    ; y direction                   ;27
+jeq 33,0,0   ; inc count and leave           ;28
+
+;x_direction
+mov a,[5]                                    ;29
+jeq 33,0,0                                   ;30
+
+;restart counter
+mov [0],255                                  ;31
+inc [8]                                      ;32
+
+;inc count and leave
+inc [0]                                      ;33
+int 0                                        ;34
+mov b,[0]                                    ;35
+mov c,[1]                                    ;36
+mov d,[2]                                    ;37
+mov e,[3]                                    ;38
+mov f,[4]                                    ;39
+mov g,[5]                                    ;40
+mov h,[6]                                    ;41
+int 8                                        ;42
+hlt                                          ;43
+
+;decide default direction
+int 3       ;get ghost index                 ;44
+mov [7],a                                    ;45
+div a,4                                      ;46
+mul a,4                                      ;47
+sub [7],a                                    ;48
+mov a,[8]                                    ;49
+div a,4                                      ;50
+mul a,4                                      ;51
+sub [8],a                                    ;52
+add [7],[8]                                  ;53
+mov a,[7]                                    ;45
+div a,4                                      ;46
+mul a,4                                      ;47
+sub [7],a                                    ;48
+mov a,[7]                                    ;54
+jeq 1,0,0                                    ;55
