@@ -14,7 +14,7 @@ The Lambdaman AI is based on just three items:
 
 The rest of the posible factors are not present because of a lack of time.
 
-The lambdaman solution have been encoded with the help of wisual studio 2010, c# and wpf, the visual studio project is in the present directory. I have used those to build just a bunch of helper functions which let me create my assembler code that is simply generated as the Text property of a textBox that you can copy. 
+The lambdaman solution have been encoded with the help of wisual studio 2010, c# and wpf, the visual studio project is in the present directory. I have used those to build just a bunch of helper functions which let me create my assembler code -using a macroassembler aproach- that is simply generated as the Text property of a textBox that you can copy. 
 I have used only the original resources to try out and debug my code.
 
 The ghost AI is based in a very simple strategy:
