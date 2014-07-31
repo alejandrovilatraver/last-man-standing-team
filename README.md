@@ -3,7 +3,7 @@ last-man-standing-team
 
 ICFP contest Last Man Standing Team solution 
 
-It is a team of just one person: Alejandro Vila Traver.
+It is a team of one: Alejandro Vila Traver.
 
 The Lambdaman AI is based on just three items:
 
